@@ -4,10 +4,7 @@
   "description": "A http server - utn",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "dev": "node --watch ./src/index.js",
-    "build": "node --watch ./src/index.js"
-  },
+  "scripts": {},
   "keywords": [
     "express",
     "protocol",
