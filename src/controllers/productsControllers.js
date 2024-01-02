@@ -22,6 +22,9 @@ export const addProducts = (req, res) => {
     });
   } catch (error) {
     console.log(error);
-    responseProducts(res, 400, { message: "ERROR_TO_ADD_PRODUCT" });
+    responseProducts(res, 400, {
+      message: "ERROR_TO_ADD_PRODUCT",
+      error,
+    });
   }
 };
