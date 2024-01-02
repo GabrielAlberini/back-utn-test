@@ -2,7 +2,7 @@
   "name": "express-utn",
   "version": "1.0.0",
   "description": "A http server - utn",
-  "main": "./src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "node --watch ./src/index.js"
