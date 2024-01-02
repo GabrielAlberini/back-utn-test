@@ -13,7 +13,7 @@ export const getProducts = () => {
 export const addProduct = (newProduct) => {
   try {
     products.push(newProduct);
-    fs.writeFileSync(pathfile + "/products.json", JSON.stringify(products));
+    // fs.writeFileSync(pathfile + "/products.json", JSON.stringify(products));
     return newProduct;
   } catch (error) {
     throw new Error("406 - NOT ACCEPTABLE", error);
