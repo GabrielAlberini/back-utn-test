@@ -13,7 +13,6 @@ export const getProducts = (req, res) => {
 };
 
 export const addProducts = (req, res) => {
-  console.log(req, "aca");
   try {
     const newProduct = req.body;
     newProduct.id = crypto.randomUUID();
