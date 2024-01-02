@@ -70,32 +70,5 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrGUCobzR3ymVb3nnZ6bPLl7v_szjR9QV2oFXs3SqaLKnRXwve0Q29scqH4hczq8GdYc&usqp=CAU",
     "rating": { "rate": 3.9, "count": 120 },
     "id": "93e4e51f-02ad-4bdf-b0e1-cc78265caef8"
-  },
-  {
-    "title": "PC",
-    "price": 109.95,
-    "description": "Your perfect pc",
-    "category": "Technology",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrGUCobzR3ymVb3nnZ6bPLl7v_szjR9QV2oFXs3SqaLKnRXwve0Q29scqH4hczq8GdYc&usqp=CAU",
-    "rating": { "rate": 3.9, "count": 120 },
-    "id": "61d9c37c-cb47-42fc-a2bd-b65875de9f95"
-  },
-  {
-    "title": "PC",
-    "price": 109.95,
-    "description": "Your perfect pc",
-    "category": "Technology",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrGUCobzR3ymVb3nnZ6bPLl7v_szjR9QV2oFXs3SqaLKnRXwve0Q29scqH4hczq8GdYc&usqp=CAU",
-    "rating": { "rate": 3.9, "count": 120 },
-    "id": "a63b1199-62ad-49b9-a6f9-5e2ef8b9caf6"
-  },
-  {
-    "title": "PC",
-    "price": 109.95,
-    "description": "Your perfect pc",
-    "category": "Technology",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrGUCobzR3ymVb3nnZ6bPLl7v_szjR9QV2oFXs3SqaLKnRXwve0Q29scqH4hczq8GdYc&usqp=CAU",
-    "rating": { "rate": 3.9, "count": 120 },
-    "id": "a92680ee-762c-4406-a295-5aacc97f223a"
   }
 ]
