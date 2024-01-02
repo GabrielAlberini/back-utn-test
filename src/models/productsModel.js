@@ -14,6 +14,6 @@ export const addProduct = (newProduct) => {
     products.push(newProduct);
     fs.writeFileSync("./src/database/products.json", JSON.stringify(products));
   } catch (error) {
-    throw new Error("406 - NOT ACCEPTABLE");
+    throw new Error("406 - NOT ACCEPTABLE", error);
   }
 };
