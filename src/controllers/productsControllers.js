@@ -8,6 +8,26 @@ export const getProducts = (req, res) => {
   } catch (error) {
     responseProducts(res, 404, {
       message: "ERROR_TO_GET_DATA",
+      error,
+    });
+  }
+};
+
+export const getProductById = (req, res) => {
+  try {
+    const { id } = req.params;
+    const productById = productModel.getProductById(id);
+    if (productById) {
+      responseProducts(res, 200, productById);
+    } else {
+      responseProducts(res, 404, {
+        message: "NOT_FOUND",
+      });
+    }
+  } catch (error) {
+    responseProducts(res, 404, {
+      message: "ERROR_TO_GET_DATA",
+      error,
     });
   }
 };
@@ -19,6 +39,7 @@ export const addProducts = (req, res) => {
     productModel.addProduct(newProduct);
     responseProducts(res, 200, {
       message: "ADDED_PRODUCT_SUCCESFUL",
+      newProduct,
     });
   } catch (error) {
     responseProducts(res, 400, {

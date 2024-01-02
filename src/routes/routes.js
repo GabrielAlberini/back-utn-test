@@ -19,6 +19,9 @@ routes.get("/", (req, res) => {
 //  http:localhost:3005/api/product -> GET
 routes.get("/product", productsController.getProducts);
 
+//  http:localhost:3005/api/product -> GET
+routes.get("/product/:id", productsController.getProductById);
+
 routes.post(
   "/product",
   middlewareProductStructure,
